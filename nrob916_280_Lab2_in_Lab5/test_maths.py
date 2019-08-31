@@ -56,6 +56,10 @@ class MathsTest(unittest.TestCase):
         
         pass
 
+    def test_factorial(self):
+        b = maths
+        n = 3
+        self.assertEqual(b.factorial(n), 6)
 # This allows running the unit tests from the command line (python test_maths.py)
 if __name__ == '__main__':
     unittest.main()
