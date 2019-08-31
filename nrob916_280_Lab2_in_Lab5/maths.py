@@ -16,7 +16,11 @@ def fibonacci(length):
     return internal(0, 1, length)
 
 def factorial(number):
-    return
+    if number == 0:
+        return 1
+    else:
+        return number * factorial(number-1)
+    return 
 HEX_CHARS = {
     10: 'A',
     11: 'B',
